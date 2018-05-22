@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="431.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resraurantee.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <MenuBar prefHeight="25.0" prefWidth="736.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff22" height="85.0" layoutX="39.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="87.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#56ff1f" height="85.0" layoutX="155.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#20ff1f" height="85.0" layoutX="276.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="87.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff30" height="85.0" layoutX="380.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#42ff1f" height="93.0" layoutX="39.0" layoutY="148.0" stroke="BLACK" strokeType="INSIDE" width="87.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#25ff1f" height="93.0" layoutX="158.0" layoutY="148.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#39ff1f" height="93.0" layoutX="276.0" layoutY="148.0" stroke="BLACK" strokeType="INSIDE" width="87.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#39ff1f" height="93.0" layoutX="381.0" layoutY="148.0" stroke="BLACK" strokeType="INSIDE" width="93.0" />
+      <Button layoutX="124.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="69.0" text="Reservar" />
+      <ScrollPane layoutX="482.0" layoutY="41.0" prefHeight="373.0" prefWidth="244.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="371.0" prefWidth="235.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Nombre" />
+                  <Label layoutX="14.0" layoutY="41.0" text="Correo" />
+                  <TextField layoutX="61.0" layoutY="10.0" />
+                  <TextField layoutX="61.0" layoutY="37.0" />
+                  <Label layoutX="66.0" layoutY="72.0" text="Menu" />
+                  <TextField layoutX="19.0" layoutY="87.0" />
+                  <Button layoutX="68.0" layoutY="122.0" mnemonicParsing="false" text="Button" />
+                  <TextArea layoutX="33.0" layoutY="147.0" prefHeight="123.0" prefWidth="122.0" />
+                  <Button layoutX="45.0" layoutY="279.0" mnemonicParsing="false" text="Realizar Pedido" />
+                  <Label layoutX="59.0" layoutY="310.0" text="Total a pagar" />
+                  <Label layoutX="83.0" layoutY="327.0" text="Label" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button layoutX="276.0" layoutY="273.0" mnemonicParsing="false" text="Ocupar" />
+      <Label layoutX="110.0" layoutY="349.0" />
+      <Label layoutX="191.0" layoutY="349.0" text="Ocupado" textFill="#e42914" />
+      <Label layoutX="290.0" layoutY="349.0" text="Label" textFill="#eb880e" />
+      <Label layoutX="96.0" layoutY="349.0" text="Disponible" textFill="#1fd728" />
+    </children>
+</AnchorPane>
